@@ -32,10 +32,10 @@ def create_db_instance():
 
 def connection():
     try:
-        connection = mysql.connector.connect(host='aayush.cmyi9iqznzuz.us-east-1.rds.amazonaws.com',
-                                             port=3306,
-                                             user='aayush',
-                                             passwd='123456789',
+        connection = mysql.connector.connect(host='',
+                                             port=,
+                                             user='',
+                                             passwd='',
                                              database='db2')
         print(connection)
         db = connection.cursor()
